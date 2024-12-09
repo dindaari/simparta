@@ -1,0 +1,45 @@
+name: flutter_simparta
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  google_maps_flutter: ^2.5.0
+  connectivity_plus: ^5.0.2
+  flutter_screenutil: ^5.9.3
+  provider: ^6.1.2
+  sizer: ^3.0.3
+  permission_handler: ^11.3.1
+  latlong2: ^0.9.1
+  flutter_map: ^7.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/bg.png
+    - assets/images/bg_logo.png
+    - assets/images/chevron_left.png
+    - assets/images/chevron_right.png
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
